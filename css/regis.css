@@ -1,0 +1,173 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+.find{
+    margin-left: 10px;
+    padding: 5px;
+    width: 90px;
+    border-radius: 20px;
+    right: 3px;
+    top: 2.3px;
+    color: white;
+    border: none;
+    padding: 9px 13px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.find a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.find:hover{
+    transform:scale(1.03);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.7);
+    background-color:black;    
+}
+/*name div as image*/
+.image{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-position: center;
+}
+/* login page box*/
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background:transparent;
+    border: 2px solid rgba(169, 64, 64, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /*hidden overflow icon in corner*/
+}
+.wrapper.active-popup {
+    transform: scale(1);
+}
+.wrapper .form-box {
+    width: 100%;
+    padding: 40px;
+}
+.form-box h2{
+    font-size: 2em;
+    color: #162938;
+    text-align: center;
+}
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #162938;
+    margin: 30px 0;
+}
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: lem;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+
+}
+/*to stop type the user input on the email words*/
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+
+/*move logos right and adjust logo heith in the line*/
+}
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #162938;
+    line-height: 57px;
+}
+.remember-forgot{
+    font-size: .9em;
+    color: #162938;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot label input {
+    accent-color: #162938;
+    margin-right: 3px;
+}
+.remember-forgot a{
+    color: #162938;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+/*button adjustments*/
+.find {
+    width: 100%;
+    height: 45px;
+    background: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+.login-register {
+    font-size: .9em;
+    color: #162938;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+.login-register p a {
+    color: #162938;
+    text-decoration: none;
+    font-weight: 600;
+}
+.login-register p a:hover {
+    text-decoration: underline;
+}
+body.a {
+     
+    margin-right: 20px; /* Adds space between the links */
+    color: inherit; /* Ensures the link inherits the text color */
+}
+
+body.a:hover {
+    text-decoration: underline; /* Adds underline to the links */
+}
+
+term.a:hover {
+    text-decoration: underline; /* Adds underline to the links */
+}

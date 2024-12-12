@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.content {
+    background-color: #ffffff;
+    border-radius: 12px; /*box round coners*/
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin: 60px auto;
+    padding: 40px;
+    max-width: 1200px;  /*Maximum width for the content box*/
+    font-family: 'Poppins', sans-serif;
+}
+
+.content h2 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2.4rem; /*38.4px*/
+    color: #2c3e50;
+    font-weight: bold; /* font bold*/
+}
+
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 40px;
+    flex-wrap: wrap;  /*wrapp when screen small*/ /*it allows the flex items to wrap onto multiple lines if they can't all fit in a single line*/
+}
+
+/*Contacts Section*/
+.contacts {
+    flex: 1; /*allows the item to grow and fill the available space equally with other flex items*/
+    background-color: #7d7f81;
+    border-radius: 12px;
+    padding: 30px;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contacts .info {
+    margin-bottom: 20px;
+}
+
+.contacts .info b {
+    font-size: 1.2rem;
+    color: #12f3e8;
+}
+
+.contacts .detail {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.contacts .detail .icon {
+    margin-right: 15px;
+    color: #f39c12;
+    font-size: 1.4rem;
+}
+
+.contacts .detail a {
+    color: #ffffff;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+
+
+/* Form Section */
+.form {
+    flex: 1;
+    background-color: #ecf0f1;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form fieldset {
+    border: none; /*removes the border from the element*/
+}
+
+.form input[type="text"],
+.form input[type="tel"],
+.form input[type="email"],
+.form textarea {
+    width: calc(100% - 20px); /* width is 100% of the parent minus 20px */
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #bdc3c7;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #2c3e50;
+}
+
+
+
+.form textarea {
+    height: 150px;
+}
+
+.form button {
+    display: block; /* makes the element take up the full width and start on a new line */
+    width: 100%; /*full width button*/
+    padding: 12px;
+    border-radius: 6px;
+    background-color: #3498db;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form button:hover {
+    background-color: #2980b9;
+}

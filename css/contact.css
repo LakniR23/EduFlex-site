@@ -1,0 +1,84 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.content {
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+
+.content h2 {
+    padding-bottom: 30px;;
+}
+.details {
+    display: flex;
+    flex-direction: row; /*displays items in a row*/
+    
+}
+
+.content > .details > .contacts {
+    display:flex;
+    flex-direction: row;
+    border: 1px solid rgb(122, 119, 119);
+    background-color: grey;
+
+}
+
+.content > .details > .contacts > .info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content > .details > .contacts > .info > .detail {
+    display: flex;
+    justify-content: space-between; /*aligns items along the main axis(left, right, center)*/
+    gap: 20px;
+}
+
+ .num,
+ .email,
+.address {
+    width: 250px;
+}
+
+.content > .details > .contacts > .info > .detail > .icon {
+    margin-left: 20px;
+}
+
+.content > .details > .contacts > .info > .detail a {
+    text-decoration: none;
+    color: black;
+}
+
+.content > .details > .contacts > .info > .detail a:hover {
+    color: white;
+}
+.content > .details > .form {
+    width: 600px;
+    border: 1.5px solid black;
+    padding: 30px;
+}
+
+.content > .details > .form form > .query {
+    display: flex;
+    justify-content: space-between; /*adjusts the horizontal spacing between the flex items to distribute them*/
+    padding: 0px 10px;
+}
+
+.content > .details > .form form > .query > .query1 input {
+    width: 200px;
+}
+
+.content > .details > .form form > .query > .message textarea {
+    width: 300px;
+    height: 150px;
+}
+
+.content > .details > .form form > .query > .message > .btn button {
+    margin-left: 200px;
+}

@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* About Us Container  */
+.about-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 50px auto;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+#about {
+    font-size: 2.8rem;
+    color: #2c3e50;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+#p1 {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    max-width: 900px;
+    margin: 0 auto 40px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+h3 {
+    background-color: #17A2B8;
+    color: white;
+    padding: 12px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 40px 0;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/* Vision and Mission Container */
+.vision-mission-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #ecf0f1;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease
+}

@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.content {
+    margin: 30px 60px;
+}
+
+.content > .description {
+    text-align: justify;
+    padding-bottom: 100px;
+}
+
+.content > .description h2 {
+    padding-bottom: 30px;
+}
+
+content > .pricing {
+    align-items: right;
+}
+
+.content > .pricing button{
+   width: 200px;
+   margin: 0;
+   display: inline-block; /*elements are set on the same line witha box model*/
+   margin-left: 80%;
+}

@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.topic {
+    text-align: center;
+    font-size: 3rem;
+    color: #333;
+    margin: 50px 0 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+   
+}
+
+.intro, .info {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+   
+}
+
+.intro {
+    font-size: 1.3rem;
+    color: #444;
+    margin-bottom: 40px;
+}
+
+.info {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.info h3 {
+    color: #222;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.info br {
+    margin-bottom: 20px;
+}
+
+.info p {
+    margin-bottom: 15px;
+}

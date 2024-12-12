@@ -1,0 +1,124 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+#content {
+    margin: 20px auto; 
+    padding: 10px; 
+    max-width: 1200px; 
+}
+
+
+#content h2 {
+    text-align: center;
+    padding-bottom: 20px; 
+}
+
+
+#content > .explaination {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 10px; 
+}
+
+/* Courses Container */
+#content > .courses {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    padding: 10px 0; 
+}
+
+
+#content > .courses > .course1, 
+#content > .courses > .course2, 
+#content > .courses > .course3, 
+#content > .courses > .course4 {
+    padding: 15px; /* Reduced padding inside each course block */
+    border-radius: 10px;
+    margin-bottom: 15px; /* Reduced margin between course blocks */
+}
+
+#content > .courses > .course1:hover, 
+#content > .courses > .course2:hover, 
+#content > .courses > .course3:hover, 
+#content > .courses > .course4:hover {
+    transform:scale(1.03);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.7);
+    background-color: rgb(243, 242, 239)
+}
+
+/* Each Course Detail Block */
+#content > .courses > .course1 > .details,
+#content > .courses > .course2 > .details,
+#content > .courses > .course3 > .details,
+#content > .courses > .course4 > .details {
+    width: 100%;
+    border: 2px solid black;
+    padding: 15px; /* Reduced padding inside course details */
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+#content > .courses > .course1 > .details:hover,
+#content > .courses > .course2 > .details:hover,
+#content > .courses > .course3 > .details:hover,
+#content > .courses > .course4 > .details:hover {
+    border-color: grey;
+}
+
+/* Detail Text Styling */
+#content > .courses > .course1 > .details > .detail1,
+#content > .courses > .course2 > .details > .detail2,
+#content > .courses > .course3 > .details > .detail3,
+#content > .courses > .course4 > .details > .detail4 {
+    padding: 8px 0; 
+}
+
+
+#content > .courses > .course1 > .details > .btn,
+#content > .courses > .course2 > .details > .btn,
+#content > .courses > .course3 > .details > .btn,
+#content > .courses > .course4 > .details > .btn {
+    display: flex; /*This makes the container a flexbox container. The direct child elements inside this container become flex items, and their layout is controlled by the flexbox properties.*/
+    justify-content: flex-end; /*All the items will be aligned at the far end, leaving any extra space on the left side of the container.*/
+    margin-top: 8px; 
+}
+
+/* Button Styling */
+#content > .courses > .course1 > .details > .btn button,
+#content > .courses > .course2 > .details > .btn button,
+#content > .courses > .course3 > .details > .btn button,
+#content > .courses > .course4 > .details > .btn button {
+    width: 130px; 
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 12px; 
+    cursor: pointer; /*changes the appearance of the mouse cursor to a hand icon */
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /*to smoothly animate the changes in the background color and text color of a button over a duration of 0.3 seconds when these properties change*/
+}
+
+/* Button Hover Effect */
+#content > .courses > .course1 > .details > .btn button:hover,
+#content > .courses > .course2 > .details > .btn button:hover,
+#content > .courses > .course3 > .details > .btn button:hover,
+#content > .courses > .course4 > .details > .btn button:hover {
+    background-color: grey;
+    color: black;
+}
+
+/* Button Links Styling */
+#content > .courses > .course1 > .details > .btn button a,
+#content > .courses > .course2 > .details > .btn button a,
+#content > .courses > .course3 > .details > .btn button a,
+#content > .courses > .course4 > .details > .btn button a {
+    text-decoration: none;
+    color: inherit; /* makes the element inherit the text color of its parent element.*/
+}
+

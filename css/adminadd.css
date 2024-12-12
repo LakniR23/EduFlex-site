@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    /*romove padding and maring*/
+}
+
+form {
+    width: 300px;                 /*set the form width*/
+    margin: 20px auto;            /**/
+    padding: 20px;                /*add padding to form*/
+    background-color: #f4f4f9;    
+    border: 1px  ;       
+    border-radius: 10px;          /*make boarder round*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*add shadow around the form*/
+}
+
+fieldset {
+       
+    border-radius: 5px;          
+    padding: 15px;                
+}
+
+legend {
+    font-size: 1.2em;             
+    font-weight: bold;            
+                  
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]
+{
+    width: 100%;                  
+    padding: 10px;               
+    margin: 10px 0px;               
+    border-radius: 5px;           /*round corner for input field*/
+    box-sizing: border-box;       
+}
+
+.add-admin-btn{
+    width: 55%;                  /*set button width*/
+    padding: 10px;                /*Add padding inside the button*/
+    margin-top: 10px;             /*add margin above the button*/
+    background-color: #050505;    
+    color: white;                 
+    border: none;              /*remove button boarder*/   
+    border-radius: 5px;           
+}
+
+
+select {
+    width: 100%;                  
+    padding: 10px;               
+    margin: 10px 0px;           
+    border-radius: 5px;          
+    box-sizing: border-box;       
+    appearance: none;            /* Remove default styling */
+    background-color: white;     /* set background color */
+    border: 1px solid #ccc;      /* Optional: set border style */
+}
+
+.return {
+    background-color: #1d67d6; 
+    color: white; 
+    border: none; /* No border line */
+    padding: 10px 20px; 
+    text-align: center; /* Centered text */
+    text-decoration: none; 
+    display: inline-block; /* Make it an inline block element */
+    font-size: 16px; 
+    margin: 10px auto; /* Center the button with margin */
+    cursor: pointer; /*Pointer cursor on hover*/
+    border-radius: 5px; 
+    
+}
+
+.return:hover {
+    background-color: #45a049; 
+}
+
+

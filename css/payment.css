@@ -1,0 +1,67 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.payment-section {
+    max-width: 600px; 
+    margin: 50px auto; 
+    padding: 20px; /* Adds space inside the section */
+    background-color: #fff; 
+    border-radius: 8px; /* Round  corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.payment-main {
+    text-align: center; /* Centers the  text */
+    font-size: 28px; 
+    margin-bottom: 30px; /* Adds space below the heading */
+    color: #333; 
+}
+
+.payment-form {
+    display: flex;
+    flex-direction: column; /* Arranges form elements in a column layout */
+    gap: 20px; /* Adds space between form elements */
+}
+
+.form-group {
+    display: flex; /* Uses flexbox layout for form groups */
+    flex-direction: column; 
+    gap: 8px; 
+}
+
+.form-group label {
+    font-weight: bold; /* Makes the label text bold */
+    margin-bottom: 5px; /* Adds space below the label */
+    color: #333; 
+}
+
+.form-group input {
+    padding: 10px; /* Adds padding inside the input fields */
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    outline: none; /* Removes the default outline */
+    transition: border-color 0.3s; 
+}
+
+.form-group input:focus {
+    border-color: #007bff; /* Changes border color on focus */
+}
+
+.submit-btn {
+    padding: 12px 20px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+}
+
+.submit-btn:hover {
+    background-color: #da4270; 
+}

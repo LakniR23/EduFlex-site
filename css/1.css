@@ -1,0 +1,144 @@
+/*code*/
+h1#mod{
+	font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: left;       /* Text starts from the left */
+    padding-left: 20%; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;     /* Adds padding to move text towards center */
+    
+}
+.module-container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Spacing between modules */
+}
+.module {
+ border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 350px;
+  margin-right: 350px; 
+}
+.module:hover{
+    transform:scale(1.03);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.7);
+    background-color: rgb(191, 238, 219)
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+    line-height: 1.5;
+    color: #060505;
+    
+}/*overview*/
+.box:hover{
+  transform:scale(1.03);
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.7);
+  background-color: rgb(243, 242, 239)
+}
+/*overview box adjustments*/
+div.box{
+width: 90%;
+height: 5%;
+padding: 3px;
+margin-left: 80px;
+margin-right: 80px;
+}
+
+.view-button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  float: right;
+  bottom: 100px; 
+}
+
+.view-button:hover {
+  background-color: grey;
+}
+
+/*module01*/
+p#l1 {
+  text-align: left; /* Aligns the paragraph to the right */
+  font-size: 24px;
+margin-left: 88px;
+}
+p#l2 {
+  text-align: left; /* Aligns the paragraph to the right */
+  margin-right: 750px; /* Moves the paragraph slightly to the right */
+  font-size: 24px;
+  margin-left: 40px;
+
+}
+p#l4 {
+  text-align: left; /* Aligns the paragraph to the right */
+  margin-right: 750px; /* Moves the paragraph slightly to the right */
+  font-size: 28px;
+  margin-left: 40px;
+  color: darkblue;
+}
+
+/*week 01 part*/
+p.class {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#btn {
+  width: 100px;
+  height: 40px;
+}
+p#l3 {
+  text-align: right; /* Aligns the paragraph to the right */
+  margin-right: 700px; /* Moves the paragraph slightly to the right */
+  padding-right: 10px;
+  font-size: 22px;
+  padding: 5px;
+}
+/*colour contact information*/
+      #contact {
+      text-align: left;
+      padding: 20px;
+      background: linear-gradient(to right, #bbdefb, #ffffff);
+      border-radius: 10px;
+      width: 100%;
+      height: 3%;
+        }
+  #contact:hover{
+  transform:scale(1.03);
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.7);
+  background-color: rgb(137, 232, 245)
+}
+  
+  #contact h2 {
+      font-size: 22px;
+      color: blueviolet;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  #contact h3 {
+      color: brown;
+  }
+  
+  #contact a {
+      color: brown;
+      text-decoration: none; /* Optional: remove underline from link */
+  }
+  
+  #contact a:hover {
+      text-decoration: underline; /* Optional: underline hover*/
+}
